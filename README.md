@@ -77,8 +77,8 @@ Notes:
 
 • I don't have a 3D printer or prior experience with 3D modeling/printing, so I'm looking for someone who can handle the design and test‑print process. If you're interested in helping, please reach out — your work will be credited in the project release.
 
-[ESP32 PS5 DualSense RapidFire ModV6.5.txt](https://github.com/user-attachments/files/30240729/ESP32.PS5.DualSense.RapidFire.ModV6.5.txt)
 
+[ESP32 PS5 DualSense RapidFire ModV6.5.txt](https://github.com/user-attachments/files/30240729/ESP32.PS5.DualSense.RapidFire.ModV6.5.txt)
 
 // ESP32 PS5 DualSense RapidFire Mod for BDM-010 Board
 // Made By Vegueta1 - FIXED & OPTIMIZED v6.5
@@ -1212,7 +1212,7 @@ void setup() {
 
   setMode(current_mode);
 
-  Serial.println("RapidFire v6.5 Beta - http://192.168.4.1");
+  Serial.println("RapidFire v6.5 - http://192.168.4.1");
   Serial.println("FIXED: Continuous SPS stabilized");
 }
 
@@ -1243,6 +1243,7 @@ void loop() {
   updateLED();
   yield();
 }
+
 
 
 
