@@ -1,87 +1,163 @@
-PS5 DUALSENSE R2 Trigger RAPID-FIRE MOD ESP32— Made by Vegueta1
+PS5 DUALSENSE R2 Trigger RAPID-FIRE MOD ESP32 C3 Super Mini— Made by Vegueta1
 
 
-⚠️ FULLY WORKING STATUS — READ BEFORE INSTALLING.
-https://youtu.be/gSrpfGsMjAY
-Introducing the PS5 Dual Sense R2 Trigger Rapid-Fire Mod modular rapid-fire system targeting the R2 trigger on all Dual Sense controller revision (BDM-010)
+⚠️FULLY WORKING STATUS — READ BEFORE INSTALLING.
 
-This project is open-source under the MIT License (see https://opensource.org/licenses/MIT) and designed to be accessible for hobbyists, with a noob-friendly installation guide. A huge shoutout to RDC for His legendary Dual Sense PCB scans and hardware insights, which made this project possible.
+Introducing the PS5 Dual Sense R2 Trigger Rapid-Fire Mod modular rapid-fire system targeting the R2 trigger on a Dual Sense controller revision (BDM-010)
+
+This project is open-source and designed to be accessible for hobbyists, with a noob-friendly installation guide. A huge shoutout to RDC for His legendary Dual Sense PCB scans and hardware insights, which made this project possible.
 
 Status: Beta – Currently Working to expand support to other Board This Is a Beta to confirm that work on other boards.
 
+
+prove of working video Is the Old Mod Version but same concept
+
 ⚠️ Important Notes.
+Online Play at your own risk! This release is provided as is, with no warranty or guarantee of fitness for any purpose. In online environments may result in bans, account suspension, or other penalties. You are solely responsible for how you use this project.
 
-Educational Use Only — Online Play at your own risk!!!!!!
-This release is provided as is, with no warranty or guarantee of fitness for any purpose. It is designed for learning, experimentation, and offline testing.
-Do not use this modification in online environments — doing so may result in bans, account suspension, or other penalties.
-You are solely responsible for how you use this project.
-
-
-Visual Aids for ESP32 Chip is ESP32-D0WD-V3 (revision v3.1) Features: Wi-Fi, BT, Dual Core, 240MHz.
-
-<img width="750" height="538" alt="image" src="https://github.com/user-attachments/assets/1a39beab-5c86-46a6-9eb1-a78d2637c53b" />
+Source Code Updated Version v7.4.4 Beta is attached download it and paste it on Arduino IDE
 
 FEATURES:
-<img width="504" height="1190" alt="image" src="https://github.com/user-attachments/assets/8905d5c2-efb2-4dc1-9b1f-4794a7504245" />
-<img width="501" height="1273" alt="image" src="https://github.com/user-attachments/assets/dd3c590d-29ff-4404-abe8-db8b11a53f30" />
+
+
+
+How to Connect
+
+Power on the mod.
+
+Connect your phone/PC to the WiFi network:
+- SSID: RapidFireMod_v7.4.4
+- Password: Default Password Is 12345678
+
+Open your browser and go to: http://192.168.4.1
+
+Modes
+
+1. OFF Mode
+Rapid fire completely disabled.
+Normal controller operation.
+Automatically activates after ~5 minutes of inactivity.
+
+2. Continuous Mode (Custom SPS)
+Holds rapid fire as long as you keep R2 pressed.
+Custom SPS (Shots Per Second): Adjustable from 1 to 40 (recommended 4–30 for best stability and game compatibility).
+Ideal for automatic weapons, sustained fire, etc.
+
+3. Burst Mode (Custom Shots)
+Fires a precise number of shots with each trigger pull.
+Custom Burst Count: Adjustable from 1 to 50 shots.
+Perfect for semi-auto weapons or controlled bursts (e.g. 3–5 shots).
+
+All Features Explained
+
+Calibration (Very Important!)
+Manual Calibration:
+Cal Released (trigger not pressed)
+Cal Pressed (trigger fully pressed)
+Apply Manual Cal
+Reset Calibration → Restores safe default values.
+Good calibration = reliable trigger detection.
+
+Advanced Settings
+
+Jitter (0-100%)
+Adds small random variations to firing timing. Makes it harder to detect and feels more natural. Recommended: 10-20%. Use this on online play for less risk of getting banned.
+
+Hysteresis (0-100%)
+Creates a "dead zone" around the trigger threshold to prevent rapid on/off chatter. Recommended: 10-15%.
+
+Debounce (0-500ms)
+Ignores very quick or noisy trigger changes. Recommended: 40-60ms.
+
+Press Percent (0-100%)
+How far you need to press the trigger to activate firing. Recommended: 90-95%.
+
+Pulse Width (5-200ms)
+Duration of each individual "press" signal.
+Lower values = better for high SPS.
+Recommended: 25-40ms.
+
+Polarity
+Decreasing (Default)
+Increasing
+
+
+Global Buttons
+
+Turn OFF
+
+Reset Trigger State – Fixes stuck or weird behavior
+
+Auto Fix – Quickly applies safer debounce + hysteresis values
+
+
+Best Practices & Tips
+
+Always start with Smart Auto-Calibrate.
+
+30 SPS is an excellent sweet spot — very stable and effective.
+
+For higher SPS (35+), reduce Pulse Width to 5-10ms.
+
+Use moderate jitter for a more human-like feel.
+If the mod feels
+
+inconsistent, recalibrate and use Reset Trigger State.
+
+Troubleshooting
+
+No firing / wrong detection → Recalibrate
+Choppy or stuck firing → Reset Trigger State or power cycle
+
+SPS not stable → Lower SPS slightly or reduce Pulse Width
+
+Too sensitive → Increase Debounce and Hysteresis
+
+Enjoy the mod!
+
+This version is highly optimized for reliability and ease of use. Feel free to share your results, settings, or suggestions.
+
+
+
+Visual Diagram for ESP32 C3 Super Mini Installation.
+
+Esp32 C3 Super Mini Wiring Diagram.JPG
+
 
 PCB PS5 Controller triggers R2 Assembly: You Don't need to remove R2 trigger you can solder the point taking the flex out only, fast and easy.
 
 
 BWL-010, TRIGGER ASSEMBLY:
-<img width="1024" height="719" alt="image" src="https://github.com/user-attachments/assets/88ae1d03-3fb0-4a16-b160-eb52fbf08101" />
+BWL-010_SIDE_A.JPG
+
+
 
 BWL-020, TRIGGER ASSEMBLY:
-<img width="1024" height="715" alt="image" src="https://github.com/user-attachments/assets/f791726f-7928-43dd-bc14-2f621900b964" />
-What You Need
+BWL-020_SIDE_A.JPG
 
-- ESP32‑D0WD‑V3 (rev 3.1)
 
-- Source code paste it on Arduino IDE
+What You Need:
+
+- ESP32 C3 Super Mini
+
+- Download Source code paste it on Arduino IDE and Flash it
 
 - Data‑capable USB cable
 
 - Windows, macOS, or Linux PC
-A huge thank you to RDC From AcidMods for His invaluable PCB scans and hardware insights, and to the PSX-Place community for inspiring this project.
 
+Connect to the ESP32's Wi‑Fi
 
-STATUS UPDATE: It Work Fully on My Ps5 Dual Sense BDM-010 need you guys to test on other controller versions.
+- SSID: RapidFireMod_v7.4.4
 
+- Password: Default Password Is 12345678
 
-Let's Build This Together!
-If you try this mod, I'd love to hear your feedback.
-Drop a comment with your results, ideas, or any tweaks you'd like to see — it really helps me improve future releases.
-If you try it, drop a comment with your results — especially if you test on other Dual Sense board revisions. Your feedback will help shape the next release.
+- IP:192.168.4.1
 
-Collaboration Request — 3D‑Printed Back Case for ESP32‑D0WD‑V3
-Goal:
+On your PC/phone:
 
-Design a low‑profile, snap‑fit or screw‑on back case for the ESP32‑D0WD‑V3 (rev 3.1) that mounts to the rear of the PS5 Dual Sense controller (model CFI‑ZCT1W), in the central flat area between the grips.
+1. Open Wi‑Fi settings.
 
-Requirements:
+2. Connect to RapidFireMod_v7.4.4
 
-• Exact Fit for Module: ESP32‑D0WD‑V3 (rev 3.1) with Wi‑Fi, Bluetooth, dual‑core 240 MHz.
-• Mounting Method: Secure to controller shell without stressing solder joints; screw‑on, clip‑on, or adhesive‑backed options welcome.
-
-• Access Points: Cut‑outs for USB port, status LEDs, and airflow.
-
-• Ergonomics: Low‑profile so it doesn't interfere with grip comfort.
-
-• Serviceability: Easy to remove for firmware updates or repairs.
-
-Why This Matters:
-
-This mount will allow me to expand the mod with new modes and external button support while keeping the install clean, safe, and reversible.
-
-Notes:
-
-• I don't have a 3D printer or prior experience with 3D modeling/printing, so I'm looking for someone who can handle the design and test‑print process. If you're interested in helping, please reach out — your work will be credited in the project release.
-
-Source Code Updated Version V6.5 Beta Download the text file and past it on Arduino IDE and flash it 
-[ESP32 PS5 DualSense RapidFire ModV6.5.txt](https://github.com/user-attachments/files/30240729/ESP32.PS5.DualSense.RapidFire.ModV6.5.txt)
-
-
-
-
-
-
+3. Ignore No Internet Warning — that's normal.
