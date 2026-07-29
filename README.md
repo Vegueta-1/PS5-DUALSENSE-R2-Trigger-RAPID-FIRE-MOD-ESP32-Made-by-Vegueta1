@@ -10,7 +10,6 @@ This project is open-source and designed to be accessible for hobbyists, with a 
 Status: Beta – Currently Working to expand support to other Board This Is a Beta to confirm that work on other boards.
 
 
-prove of working video Is the Old Mod Version but same concept
 
 ⚠️ Important Notes.
 Online Play at your own risk! This release is provided as is, with no warranty or guarantee of fitness for any purpose. In online environments may result in bans, account suspension, or other penalties. You are solely responsible for how you use this project.
