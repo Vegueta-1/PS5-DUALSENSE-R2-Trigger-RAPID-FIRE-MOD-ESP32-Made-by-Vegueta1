@@ -1,3 +1,4 @@
+[Esp32 C3 Super Mini Source Code Wiring Diagram.zip](https://github.com/user-attachments/files/30503107/Esp32.C3.Super.Mini.Source.Code.Wiring.Diagram.zip)
 PS5 DUALSENSE R2 Trigger RAPID-FIRE MOD ESP32 C3 Super Mini— Made by Vegueta1
 
 
@@ -17,6 +18,7 @@ Online Play at your own risk! This release is provided as is, with no warranty o
 Source Code Updated Version v7.4.4 Beta is attached download it and paste it on Arduino IDE
 
 FEATURES:
+<img width="1184" height="1125" alt="Web App" src="https://github.com/user-attachments/assets/67a32b87-86f3-494f-9e4a-d505511eaaa7" />
 
 
 
@@ -92,7 +94,7 @@ Auto Fix – Quickly applies safer debounce + hysteresis values
 
 Best Practices & Tips
 
-Always start with Smart Auto-Calibrate.
+Always start with Calibration.
 
 30 SPS is an excellent sweet spot — very stable and effective.
 
@@ -120,19 +122,24 @@ This version is highly optimized for reliability and ease of use. Feel free to s
 
 Visual Diagram for ESP32 C3 Super Mini Installation.
 
-Esp32 C3 Super Mini Wiring Diagram.JPG
+<img width="1237" height="672" alt="Esp32 C3 Super Mini Wiring Diagram" src="https://github.com/user-attachments/assets/0287bf2f-ac56-4b8a-87db-2a2132c2fd33" />
+
 
 
 PCB PS5 Controller triggers R2 Assembly: You Don't need to remove R2 trigger you can solder the point taking the flex out only, fast and easy.
 
 
 BWL-010, TRIGGER ASSEMBLY:
-BWL-010_SIDE_A.JPG
+<img width="1024" height="719" alt="BWL-010_SIDE_A" src="https://github.com/user-attachments/assets/405847e1-c682-4cdf-8fff-20b8c0083488" />
+
 
 
 
 BWL-020, TRIGGER ASSEMBLY:
-BWL-020_SIDE_A.JPG
+<img width="1024" height="715" alt="BWL-020_SIDE_A" src="https://github.com/user-attachments/assets/b249f62e-9291-4630-b638-48061bc76cb7" />
+
+
+
 
 
 What You Need:
