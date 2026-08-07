@@ -164,6 +164,6 @@ On your PC/phone:
 
 1. Open Wi‑Fi settings.
 
-2. Connect to RapidFireMod_v7.4.4
+2. Connect to RapidFireMod_v7.4.7
 
 3. Ignore No Internet Warning — that's normal.
