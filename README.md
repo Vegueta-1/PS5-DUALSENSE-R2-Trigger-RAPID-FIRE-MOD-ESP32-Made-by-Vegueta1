@@ -15,7 +15,7 @@ Status: Beta – Currently Working to expand support to other Board This Is a Be
 ⚠️ Important Notes.
 Online Play at your own risk! This release is provided as is, with no warranty or guarantee of fitness for any purpose. In online environments may result in bans, account suspension, or other penalties. You are solely responsible for how you use this project.
 
-
+Go here to Flash it via Web https://vegueta-1.github.io/PS5-RapidFire-ESP32-C3/
 FEATURES:
 <img width="1153" height="1167" alt="Screenshot 2026-08-07 145623" src="https://github.com/user-attachments/assets/07df5f71-71d1-4988-80b2-5b4e0eed464c" />
 
