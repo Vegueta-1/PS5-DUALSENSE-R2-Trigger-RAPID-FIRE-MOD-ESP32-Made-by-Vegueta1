@@ -15,7 +15,6 @@ Status: Beta – Currently Working to expand support to other Board This Is a Be
 ⚠️ Important Notes.
 Online Play at your own risk! This release is provided as is, with no warranty or guarantee of fitness for any purpose. In online environments may result in bans, account suspension, or other penalties. You are solely responsible for how you use this project.
 
-Source Code Updated Version v7.4.4 Beta is attached download it and paste it on Arduino IDE
 
 FEATURES:
 <img width="1184" height="1125" alt="Web App" src="https://github.com/user-attachments/assets/67a32b87-86f3-494f-9e4a-d505511eaaa7" />
