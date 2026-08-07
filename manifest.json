@@ -1,13 +1,13 @@
 {
   "name": "PS5 DualSense RapidFire ESP32-C3",
   "version": "7.4.7",
-  "new_install_prompt_erase": true, 
+  "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "parts": [
         {
-          "path": ""path": "firmware/Ps5RapidfireEsp32C3.merged.bin"",
+          "path": "Ps5RapidfireEsp32C3.merged.bin",
           "offset": 0
         }
       ]
