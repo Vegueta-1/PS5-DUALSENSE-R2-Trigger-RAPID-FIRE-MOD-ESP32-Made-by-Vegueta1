@@ -5,9 +5,9 @@
   "builds": [
     {
       "chipFamily": "ESP32-C3",
-      "parts": [ 
+      "parts": [
         {
-          "path": "Ps5RapidfireEsp32C3.ino.merged.bin",
+          "path": "https://raw.githubusercontent.com/Vegueta-1/PS5-RapidFire-ESP32-C3/main/Ps5RapidfireEsp32C3.ino.merged.bin",
           "offset": 0
         }
       ]
