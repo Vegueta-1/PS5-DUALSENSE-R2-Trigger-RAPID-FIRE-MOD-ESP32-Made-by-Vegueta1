@@ -7,7 +7,7 @@
       "chipFamily": "ESP32-C3",
       "parts": [
         {
-          "path": "Ps5RapidfireEsp32C3.ino.merged.bin",
+          "path": ""path": "firmware/Ps5RapidfireEsp32C3.merged.bin"",
           "offset": 0
         }
       ]
