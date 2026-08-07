@@ -1,4 +1,4 @@
-[Esp32 C3 Super Mini Source Code Wiring Diagram.zip](https://github.com/user-attachments/files/30503107/Esp32.C3.Super.Mini.Source.Code.Wiring.Diagram.zip)
+
 PS5 DUALSENSE R2 Trigger RAPID-FIRE MOD ESP32 C3 Super Mini— Made by Vegueta1
 
 
@@ -27,7 +27,7 @@ How to Connect
 Power on the mod.
 
 Connect your phone/PC to the WiFi network:
-- SSID: RapidFireMod_v7.4.4
+- SSID: RapidFireMod_v7.4.7
 - Password: Default Password Is 12345678
 
 Open your browser and go to: http://192.168.4.1
@@ -154,7 +154,7 @@ What You Need:
 
 Connect to the ESP32's Wi‑Fi
 
-- SSID: RapidFireMod_v7.4.4
+- SSID: RapidFireMod_v7.4.7
 
 - Password: Default Password Is 12345678
 
