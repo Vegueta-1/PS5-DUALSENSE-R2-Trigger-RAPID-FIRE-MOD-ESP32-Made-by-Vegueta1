@@ -146,7 +146,7 @@ What You Need:
 
 - ESP32 C3 Super Mini
 
-- Download Source code paste it on Arduino IDE and Flash it
+- Download Firmware BIN and Flash it
 
 - Data‑capable USB cable
 
