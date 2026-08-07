@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PS5 DualSense RapidFire ESP32-C3 Flasher</title>
+
+  <!-- ESP Web Tools -->
   <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+
   <style>
     body {
       font-family: system-ui, -apple-system, sans-serif;
@@ -26,28 +29,33 @@
       border-radius: 12px;
       padding: 32px 40px;
       margin-top: 24px;
+      width: 360px;
     }
     esp-web-install-button {
       margin-top: 16px;
     }
-    .note { font-size: 13px; color: #5c6b7d; margin-top: 20px; }
+    .note {
+      font-size: 13px;
+      color: #5c6b7d;
+      margin-top: 20px;
+    }
   </style>
 </head>
+
 <body>
   <h1>PS5 DualSense RapidFire</h1>
-  <p>ESP32-C3 firmware flasher (v7.4.7)</p>
+  <p>ESP32-C3 Firmware Flasher (v7.4.7)</p>
 
   <div class="card">
     <p>Connect your ESP32-C3 via USB, then click the button below.</p>
 
-    <!-- IMPORTANT: change the manifest path if needed -->
     <esp-web-install-button manifest="manifest.json">
       <button slot="activate">Install RapidFire Firmware</button>
     </esp-web-install-button>
 
     <p class="note">
       Works in Chrome / Edge only.<br>
-      Hold BOOT button if the board is not detected.
+      Hold BOOT if the board is not detected.
     </p>
   </div>
 </body>
